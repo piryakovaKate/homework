@@ -3,17 +3,13 @@ import itertools
 
 def get_permutations(s, n):
     array = []
-    arr = list(itertools.permutations(s, n))
-    arr.sort()
-    res = list(map(list, arr))
-    #print(arr)
-    #print(res)
-    for i in range(len(res)):
-        array.append(res[i][0] + res[i][1])
+    for item in itertools.permutations(s, n):
+        array.append(''.join(item))
+    array.sort()
     print(array)
 
         
 
 
-get_permutations("cat", 2) #["ac", "at", "ca", "ct", "ta", "tc"]
+get_permutations("cat", 2)
 
