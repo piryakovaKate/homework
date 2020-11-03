@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cd 
+cd ~
 mkdir 'hello home'
 cd 'hello home'
 touch home.txt
