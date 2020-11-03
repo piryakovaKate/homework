@@ -1,5 +1,6 @@
 #! /bin/bash
 
+cd .
 mkdir 'hello current'
 cd 'hello current'
 touch current.txt
