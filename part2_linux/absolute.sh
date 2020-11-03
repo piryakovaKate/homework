@@ -1,6 +1,6 @@
 #! /bin/bash
 
-
+cd .
 mkdir -p tmp/'hello world'
 cd tmp/'hello world'
 touch absolute.txt
