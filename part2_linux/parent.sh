@@ -6,4 +6,4 @@ cd 'hello parent'
 touch parent.txt
 echo 'hello parent!!' > parent.txt
 cat parent.txt
-ls parent.txt
+ls -lh ../'hello parent'
